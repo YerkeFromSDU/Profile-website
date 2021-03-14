@@ -1,0 +1,350 @@
+*{
+    margin: 0 auto;
+    color: #00293D;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+body{
+    text-align: center;
+    background-color: rgba(199,222,205,0.6);
+    /* background-image: url("b.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.container{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+   
+}
+
+.header{
+    position: relative;
+    font-size: 20px;
+    height: 120px;
+    
+}
+.logo img{
+    opacity: 0.8;
+    width: 100%;
+    max-width: 100px;
+    border-radius: 50px;
+}
+.nav__link{
+    text-decoration: none;
+    background-color: transparent; 
+    color: #00293D;
+    font-family: 'Montserrat', sans-serif;
+    /* margin: 0 0 0 50px;    */
+    margin-right: 50px;
+}
+.nav__link:hover{
+    font-size: 22px;
+}
+.nav{
+    text-align: right;
+    background-color: transparent;
+    /* margin-left: 450px; */
+}
+/* Hello world 
+ ======================================*/
+ .container1{
+    text-align: center;
+    position: relative;
+    /* display: flex; */
+    width: 100%;
+    max-width: 1200px;
+    height: 650px;
+    background-color: transparent;
+   
+ }
+ .hello{
+    position: absolute;
+    top: 100px;
+    left: 380px;
+    font-size: 21px;
+    /* bottom: 200px; */
+ }
+ .hello h1{
+    font-family: 'Clicker Script', cursive;
+    margin-bottom: 10px;
+    font-size: 100px;
+ }
+ .photo img{
+     border-radius: 15px;
+     position: absolute;
+     bottom: 0px;
+     right: 400px;
+     width: 100%;
+     max-width: 400px;
+ }
+ /* ===================================== */
+ .about{
+     width: 100%;
+     height: 450px;
+     background-color: white;
+ }
+ .about .logo{
+     padding: 70px 0 20px;
+
+ }
+ .about h4{
+     color:rgb(87, 136, 110);
+     font-size: 25px;;
+ }
+ .about p{
+    padding-top: 20px;
+    font-size: 20px;
+    word-spacing: 2px;
+ }
+ .cont{
+     width: 100%;
+     max-width: 500px;
+ }
+ /* =============================================== */
+ .work{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+ }
+ .work h1{
+    color:rgb(87, 136, 110);
+    padding: 20px 0 60px;
+ }
+ .design{
+     width: 100%;
+     max-width: 700px;
+     display: flex;
+     margin-bottom: 40px;
+ }
+ .text h4{
+     padding-bottom: 15px;
+     font-size: 23px;
+ }
+ .text p{
+    width: 100%;
+    max-width: 400px;
+    font-size: 20px;
+    text-align: justify;
+ }
+ .teach{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+ }
+ .work img{
+    opacity: 1;
+    width: 100%;
+    max-width: 130px;
+    border-radius: 60px;
+ }
+ /* ==================================================== */
+ .note{
+    width: 100%;
+    height: 300px;
+    background-color: white; 
+ }
+ .note h1{
+    color:rgb(87, 136, 110);
+    padding: 20px 0 10px; 
+ }
+ .note h4{
+    color:rgb(87, 136, 110);
+    padding: 20px 0;
+    font-size: 20px;
+ }
+ .note p{
+    padding: 10px 0 30px;
+    width: 100%;
+    max-width: 600px;
+ }
+ .note button{
+     background-color: rgb(87, 136, 110,0.5);
+     width: 150px;
+     height: 30px;
+ }
+ /* ======================================= */
+ .footer{
+    width: 100%;
+    height: 150px;
+ }
+ .contImg{
+     width: 100%;
+     height: 70px;
+     padding: 0;
+     margin-left: 250px;
+ }
+ .links{
+     margin-right: 400px;
+ }
+ .ins{
+    padding-top: 20px;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    max-width: 400px;
+    display: flex;
+ }
+ footer p{
+     text-align: end;
+ }
+ /* ============================ */
+ @media (max-width: 360px) {
+    .header{
+        position: relative;
+        font-size: 20px;
+        height: 80px;
+        
+    } 
+    .hello h1{
+        
+        font-family: 'Clicker Script', cursive;
+        margin-bottom: 10px;
+        font-size: 50px;
+    } 
+    .hello{
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        font-size: 21px;
+        /* bottom: 200px; */
+     }
+    .container1{
+        width: 100%;
+        max-width: 350px;
+        height: 300px;
+    }
+    .text h4{
+        padding-bottom: 15px;
+        font-size: 23px;
+    }
+    .text p{
+       width: 100%;
+       max-width: 300px;
+       font-size: 20px;
+       text-align: center;
+    }
+    .note h1{
+        padding-top: 40px;
+    }
+    .note h4{
+        padding: 10px 0;
+    }
+    .nav__link{
+        margin-right: 0px;
+    }
+ }
+  /* ============================ */
+  @media (max-width: 380px) {
+    .header{
+        position: relative;
+        font-size: 20px;
+        height: 80px;
+        
+    } 
+    .hello h1{
+        
+        font-family: 'Clicker Script', cursive;
+        margin-bottom: 10px;
+        font-size: 50px;
+    } 
+    .hello{
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        font-size: 21px;
+        /* bottom: 200px; */
+     }
+    .container1{
+        width: 100%;
+        max-width: 350px;
+        height: 300px;
+    }
+    .text h4{
+        padding-bottom: 15px;
+        font-size: 23px;
+    }
+    .text p{
+       width: 100%;
+       max-width: 300px;
+       font-size: 20px;
+       text-align: center;
+    }
+    .note h1{
+        padding-top: 40px;
+    }
+    .note h4{
+        padding: 10px 0;
+    }
+    .nav__link{
+        margin-right: 0px;
+    }
+}
+      /* ============================ */
+  @media (max-width: 430px) {
+    .header{
+        position: relative;
+        font-size: 20px;
+        height: 80px;
+        
+    } 
+    .hello h1{
+        font-family: 'Clicker Script', cursive;
+        margin-bottom: 10px;
+        font-size: 50px;
+    } 
+    .hello{
+        position: absolute;
+        top: 70px;
+        left: 5px;
+        font-size: 21px;
+        /* bottom: 200px; */
+     }
+    .container1{
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+    }
+    .text h4{
+        padding-bottom: 15px;
+        font-size: 23px;
+    }
+    .text p{
+       width: 100%;
+       max-width: 300px;
+       font-size: 20px;
+       text-align: center;
+    }
+    .note h1{
+        padding-top: 40px;
+    }
+    .note h4{
+        padding: 10px 0;
+    }
+    .nav__link{
+        margin-right: 5px;
+    }
+    .cont{
+        width: 100%;
+        max-width: 400px;
+    }
+    .design{
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .teach{
+        max-width: 400px; 
+    }
+    .note{
+        max-width: 400px;
+    }
+ }
