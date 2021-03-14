@@ -41,7 +41,7 @@
                 <img src="img\boi.jpg" alt="">
             </div>
             <div class="text">
-                <h4>Design what you want</h4>
+                <h4>Design what you want!</h4>
                 <p>I love simple and minimalistic style. So people can focus on message.</p>
             </div>
         </div>
