@@ -18,9 +18,9 @@
             </div> 
             <div class="link">
                 <nav class="nav" id="nav">
-                    <a class="nav__link" href="{{ route('home') }}">Home</a>
-                    <a class="nav__link" href="{{ route('about') }}">About</a>
-                    <a class="nav__link" href="{{ route('contacts') }}">Contacts</a>
+                <a class="nav__link" href="{{ route('home') }}">{{ __('lang.home') }}</a>
+                    <a class="nav__link" href="{{ route('about') }}">{{ __('lang.about') }}</a>
+                    <a class="nav__link" href="{{ route('contacts') }}">{{ __('lang.contacts') }}</a>
                 </nav>
             </div>
         </div>
@@ -31,15 +31,15 @@
         </div>
         <div class="links">
             <div>
-                <h2>You can contact me through these links</h2>
+                <h2>{{ __('lang.link') }}</h2>
             </div>
             <div class="ins">
             
-                <a href="https://www.instagram.com/_freedom_child_/">instagram</a>
-                <a href="https://twitter.com/Kena47850438">twitter</a>
-                <a href="mailto:190103406@.gmail.com">e-mail</a>
+                <a href="https://www.instagram.com/_freedom_child_/">{{ __('lang.inta') }}</a>
+                <a href="https://twitter.com/Kena47850438">{{ __('lang.twit') }}</a>
+                <a href="mailto:190103406@.gmail.com">{{ __('lang.mail') }}</a>
             </div>
-            <p>&#169; Yerkenaz. All rights are reserved</p>
+            <p>{{ __('lang.right') }}</p>
             </div>
         </div>
 </body>

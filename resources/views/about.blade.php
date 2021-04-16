@@ -18,9 +18,9 @@
             </div> 
             <div class="link">
                 <nav class="nav" id="nav">
-                    <a class="nav__link" href="{{ route('home') }}">Home</a>
-                    <a class="nav__link" href="{{ route('about') }}">About</a>
-                    <a class="nav__link" href="{{ route('contacts') }}">Contacts</a>
+                <a class="nav__link" href="{{ route('home') }}">{{ __('lang.home') }}</a>
+                    <a class="nav__link" href="{{ route('about') }}">{{ __('lang.about') }}</a>
+                    <a class="nav__link" href="{{ route('contacts') }}">{{ __('lang.contacts') }}</a>
                 </nav>
             </div>
         </div>
@@ -30,26 +30,25 @@
             <div class="logo">
                 <img src="img\logo.jpg" alt="">
             </div>
-            <h4>Hi</h4>
-            <p>I'm a web designer and student of SDU. I have passion for web design and just love to create something beautiful.</p>
+            <h4>{{ __('lang.hi') }}</h4>
+            <p>{{ __('lang.abot') }}</p>
         </div>
     </div>
     <div class="work" id="work">
-        <h1>What can I do</h1>
+        <h1>{{ __('lang.can') }}</h1>
         <div class="design">
             <div class="logo">
                 <img src="img\boi.jpg" alt="">
             </div>
             <div class="text">
-                <h4>Design what you want!</h4>
-                <p>I love simple and minimalistic style. So people can focus on message.</p>
+                <h4>{{ __('lang.design') }}</h4>
+                <p>{{ __('lang.style') }}</p>
             </div>
         </div>
         <div class="teach">
             <div class="text">
-                <h4>Teach you.</h4>
-                <p>I am on second course, so I can help you with JAVA, HTML, CSS and such struggling
-                    subjects. I guarantee that we will upgrade your brain.
+                <h4>{{ __('lang.teach') }}</h4>
+                <p>{{ __('lang.help') }}
                 </p>
             </div>
             <div class="logo">
@@ -58,10 +57,10 @@
         </div>
     </div>
     <div class="note" id="notes">
-        <h1>I can help.</h1>
-        <h4>I'm currently available for English teaching also.</h4>
-        <p>If you want improve your English till Advanced, think you need my help with something, just get in touch.</p>
-        <button><a href="mailto:190103406@.gmail.com">MESSAGE ME</a></button>
+        <h1>{{ __('lang.note1') }}</h1>
+        <h4>{{ __('lang.note2') }}</h4>
+        <p>{{ __('lang.note3') }}</p>
+        <button><a href="mailto:190103406@.gmail.com">{{ __('lang.note4') }}</a></button>
     </div>
 </body>
 </html>

@@ -19,17 +19,17 @@
             </div> 
             <div class="link">
                 <nav class="nav" id="nav">
-                    <a class="nav__link" href="{{ route('home') }}">Home</a>
-                    <a class="nav__link" href="{{ route('about') }}">About</a>
-                    <a class="nav__link" href="{{ route('contacts') }}">Contacts</a>
+                    <a class="nav__link" href="{{ route('home') }}">{{ __('lang.home') }}</a>
+                    <a class="nav__link" href="{{ route('about') }}">{{ __('lang.about') }}</a>
+                    <a class="nav__link" href="{{ route('contacts') }}">{{ __('lang.contacts') }}</a>
                 </nav>
             </div>
         </div>
     </div>
     <div class="container1">
         <div class="hello">
-           <h1>I'm Yerke. </h1>
-            <p>Future software engineer and web designer.</p> 
+           <h1>{{ __('lang.name') }} </h1>
+            <p>{{ __('lang.prof') }}</p> 
         </div>
         <div class="photo">
             <img src="{{asset('img\work1.png')}}" alt="">
